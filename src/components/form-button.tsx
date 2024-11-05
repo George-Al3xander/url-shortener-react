@@ -13,14 +13,14 @@ const FormButton = ({
 }) => {
     if (isShorteningDone)
         return (
-            <button className="submit-button" onClick={resetForm}>
+            <button className="submit-button button-base" onClick={resetForm}>
                 Shorten new URL
             </button>
         );
 
     return (
         <button
-            className="submit-button"
+            className="submit-button button-base"
             disabled={isSubmitButtonDisabled}
             type="submit"
         >
